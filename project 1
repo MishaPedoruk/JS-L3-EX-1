@@ -1,0 +1,37 @@
+let bool = true;
+
+while(bool){
+
+    let conf = confirm('Hello');
+
+    if (conf === false){
+
+        bool = false;
+        console.log('Робота програми завершена');
+
+    }
+    else if (conf === true){
+        
+        let fPrompt = parseInt(prompt('Перше число X'));
+
+        if(fPrompt > 1){
+
+            let sPrompt = parseFloat(prompt('Друге число Y'));
+
+            if(sPrompt <= 4){
+
+                switch(sPrompt){
+
+                    case sPrompt:
+                        let tPrompt = alert(Math.pow(fPrompt , sPrompt));
+                    break;
+
+                }
+
+            }
+    
+        }
+
+    }
+
+}
